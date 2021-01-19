@@ -16,7 +16,7 @@ set tabstop=4 softtabstop=4 " 4 tab space and using space as tab characters
 set nobackup
 set undofile 
 set noswapfile " Doesnt create a swap file each time
-set undodir=~/.config/undodir " Your all operations will be stored, use `<space> + u` to see all the operations of file
+set undodir=~/AppData/Local/undodir " Your all operations will be stored, use `<space> + u` to see all the operations of file
 
 set termguicolors " Way to render color schemes 
 colorscheme one " My current color scheme

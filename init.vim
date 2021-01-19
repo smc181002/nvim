@@ -1,5 +1,5 @@
 " Plugins config
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/AppData/Local/NvimPackages/plugged')
 Plug 'rakr/vim-one'
 Plug 'tpope/vim-fugitive'
 Plug 'mbbill/undotree'
@@ -15,7 +15,7 @@ call plug#end()
 " set leader key as <space> for shortcuts
 let mapleader = " " 
 
-for f in split(glob('~/.config/nvim/vim-configs/*.vim'), '\n')
+for f in split(glob('~/AppData/Local/nvim/vim-configs/*.vim'), '\n')
     exe 'source' f
 endfor    
 
