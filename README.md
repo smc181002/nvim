@@ -3,8 +3,9 @@
 To install neovim [Windows Powershell]:
 
 Use Admin console of powershell and install neovim (v0.4 tested)
-``powershell
-choco install neovim
+
+```powershell
+choco install neovim -y
 ```
 
 To install Plug package manager, enter this command [Windows Powershell]:
