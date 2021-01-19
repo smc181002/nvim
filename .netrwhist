@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/mnt/e/crio/meherchaitanya18802-me_qprofile'
+let g:netrw_dirhist_5='/mnt/e/research_and_learn/cpp/.vscode'
+let g:netrw_dirhist_4='/mnt/e/research_and_learn/cpp'
+let g:netrw_dirhist_3='/mnt/e/research_and_learn/cpp/dtypes'
+let g:netrw_dirhist_2='/mnt/e/research_and_learn/cpp'
+let g:netrw_dirhist_1='/home/smc/.config/nvim'
+let g:netrw_dirhist_0='/home/smc/.config/nvim/vim-configs'
+let g:netrw_dirhist_9='/home/smc/github/announce-app'
+let g:netrw_dirhist_8='/home/smc/github/announce-app/public'
+let g:netrw_dirhist_7='/home/smc/github/announce-app'
