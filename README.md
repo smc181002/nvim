@@ -1,19 +1,16 @@
 # Config for neovim
 
-To install neovim [Linux]:
+To install neovim [Windows Powershell]:
 
-```bash
-curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage;\
-chmod u+x nvim.appimage;\
-cp nvim.appimage /usr/bin/nvim
+Use Admin console of powershell and install neovim (v0.4 tested)
+``powershell
+choco install neovim
 ```
 
-To install Plug package manager, enter this command [Linux]:
+To install Plug package manager, enter this command [Windows Powershell]:
 
-```bash
-sh -c 'curl -fLo \
-"${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim \
-  --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```powershell
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim |`
+    ni "$(@($env:XDG_DATA_HOME, $env:LOCALAPPDATA)[$null -eq $env:XDG_DATA_HOME])/nvim-data/site/autoload/plug.vim" -Force
 ```
 
