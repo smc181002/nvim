@@ -1,6 +1,8 @@
 # Config for neovim
 
-To install neovim [Linux]:
+To install neovim 
+
+**Linux**
 
 ```bash
 curl -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage;\
@@ -8,7 +10,15 @@ chmod u+x nvim.appimage;\
 cp nvim.appimage /usr/bin/nvim
 ```
 
-To install Plug package manager, enter this command [Linux]:
+**macOS**
+
+```bash
+brew install neovim
+```
+
+To install Plug package manager, enter this command
+
+**Linux/macOS/Unix**
 
 ```bash
 sh -c 'curl -fLo \
@@ -16,4 +26,3 @@ sh -c 'curl -fLo \
   --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
-
