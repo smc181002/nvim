@@ -26,3 +26,7 @@ sh -c 'curl -fLo \
   --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
 ```
+
+After this, enter neovim using the command `nvim` and press `:PlugInstall` in the command mode and the plugins will be installed. Then reopen your files and you are ready to use the IDE.
+
+Check this [repo wiki](https://github.com/smc181002/nvim/wiki) for more details
