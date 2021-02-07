@@ -10,6 +10,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/goyo.vim'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'preservim/nerdcommenter'
 call plug#end()
 
 " set leader key as <space> for shortcuts
