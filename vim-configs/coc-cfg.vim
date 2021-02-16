@@ -7,6 +7,7 @@ let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-snippets',
   \ 'coc-svelte',
+  \ 'coc-java',
   \ ]
 
 " use TAB to trigger completition
